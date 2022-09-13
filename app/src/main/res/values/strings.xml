@@ -1,0 +1,332 @@
+<resources>
+    <string name="app_name">RecipEats</string>
+    <string name="action_settings">Settings</string>
+
+
+
+    <string name="settings_description">Settings</string>
+    <string name="search_description">Search</string>
+    <string name="recipe_taskbar_label">Recipe</string>
+    <string name="saved_taskbar_label">Saved</string>
+    <string name="settings_taskbar_label">Settings</string>
+
+
+    <string name="mission_penn_state"><b><big>Mission and Values</big></b>
+\n
+\n
+The Pennsylvania State University is a multi-campus, land-grant, public research university that educates students from around the world and supports individuals and communities through integrated programs of teaching, research, and service.
+\n
+\n
+Our instructional mission includes <a href="https://admissions.psu.edu/">undergraduate</a>, <a href="https://gradschool.psu.edu/prospective-students/">graduate</a>, professional, continuing, and <a href="https://extension.psu.edu/">extension</a> education offered through both resident instruction and distance learning. Our educational programs are enriched by the talent, knowledge, diversity, creativity, and teaching and research acumen of our faculty, students, and staff.
+\n
+\n
+Our discovery-oriented, collaborative, and interdisciplinary research and scholarship promote human and economic development, global understanding, and advancement in professional practice through the expansion of knowledge and its applications in the natural and applied sciences, social and behavioral sciences, engineering, technology, arts and humanities, and myriad professions.
+\n
+\n
+As Pennsylvania\'s land-grant university, we provide unparalleled access to education and public service to support the citizens of the Commonwealth and beyond. We engage in collaborative activities with private sector, educational, and governmental partners worldwide to generate, integrate, apply, and disseminate knowledge that is valuable to society.
+    </string>
+
+
+
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+
+
+
+
+
+
+
+    <string name="tree_name">HoslerOak</string>
+    <string name="tree_id">#7863</string>
+    <string name="tree_location">Arboretum</string>
+    <string name="logo_description">App Logo</string>
+
+    <string name="current_profile_label">Current Profile</string>
+    <string name="app_settings_label">App Settings</string>
+    <string name="settings_tree_name_label">Name:</string>
+    <string name="settings_checkbox_theme">Change App Theme</string>
+    <string name="settings_checkbox_clear_preference">Clear Profile Preferences</string>
+    <string name="tree_id_label">ID:</string>
+    <string name="tree_location_label">Location:</string>
+    <string name="shared_pref_assignment_3">edu.psu.ist.hcdd340.treender.assignment_3</string>
+
+
+
+
+    <string name="ingredients">Ingredients</string>
+    <string name="ingredientsDesc">Ingredients Description</string>
+    <string name="ingredientsName">Recipe Name</string>
+    <string name="ingredientsPic">Recipe Picture</string>
+
+
+
+    <string name="like_fruit_salad">Like Fruit Salad</string>
+    <string name="name_fruit_salad">Fruit Salad</string>
+
+    <string name="desc_fruit_salad">
+        \n
+        \n
+        <b><big>\t\t Ingredients</big></b>
+        \n
+        \n
+        \t\t\t\t • 1 Cup of Strawberries
+        \n
+        \n
+        \t\t\t\t • 1 cup of raspberries, fresh or frozen
+        \n
+        \n
+        \t\t\t\t • 1 cup of grapes
+        \n
+        \n
+        \t\t\t\t • 1 cup of diced apples
+        \n
+        \n
+        \t\t\t\t • 1 cup of sliced bananas
+        \n
+        \n
+        \t\t\t\t • 1/2 cup of yogurt (strawberry or vanilla)
+        \n
+        \n
+        \t\t\t\t • 1/2 cup of cool whip (or whip your own cream)
+        \n
+        \n
+
+
+
+        \n
+        \n
+        <b><big>\t\t Instructions</big></b>
+
+        \n
+        \n
+        \t\t\t\t • Place all prepared fruit in a medium bowl
+        \n
+        \n
+        \t\t\t\t • Stir in Yogurt and Cool Whip
+        \n
+        \n
+        \t\t\t\t • Serve immediately or refrigerate before serving
+        \n
+        \n
+
+
+        \n
+        \n
+        <b><big>\t\t Source:</big></b>
+        \n
+        \n
+        \t\t\t\t • <u>natashaskitchen.com</u>
+        \n
+        \n
+        \t\t\t\t • <u>https://natashaskitchen.com/</u>
+        \n\t\t\t\t\t\t\t<u>quick-and-easy-fruit-salad/</u>
+        \n
+        \n
+        \n
+
+
+    </string>
+
+
+    <string name="like_popcorn_chicken">Like Popcorn Chicken</string>
+    <string name="name_popcorn_chicken">Popcorn Chicken</string>
+
+    <string name="desc_popcorn_chicken">
+        \n
+        \n
+        <b><big>\t\t Ingredients</big></b>
+        \n
+        \n
+        \t\t\t\t • Chicken Breast
+        \n
+        \n
+        \t\t\t\t • Flour
+        \n
+        \n
+        \t\t\t\t • Salt
+        \n
+        \n
+        \t\t\t\t • Garlic powder
+        \n
+        \n
+        \t\t\t\t • Buttermilk
+        \n
+        \n
+        \t\t\t\t • Panko Crumbs
+        \n
+        \n
+        \t\t\t\t • Oil
+        \n
+        \n
+
+
+
+        \n
+        \n
+        <b><big>\t\t Instructions</big></b>
+
+        \n
+        \n
+        \t\t\t\t • Slice chicken breast – cut into even,
+        \n\t\t\t\t\t\t\t bite-sized pieces
+        \n
+        \n
+        \t\t\t\t • Make the flour mixture – Whisk the flour,
+        \n\t\t\t\t\t\t\t salt, and garlic powder together in a medium
+        \n\t\t\t\t\t\t\t bowl.
+        \n
+        \n
+        \t\t\t\t • Measure buttermilk and panko –
+        \n\t\t\t\t\t\t\t Pour buttermilk into a separate bowl
+        \n\t\t\t\t\t\t\t  and the panko bread crumbs onto
+        \n\t\t\t\t\t\t\t  a plate.
+        \n
+        \n
+        \t\t\t\t • Dredge the chicken – Dip chicken bites into
+        \n\t\t\t\t\t\t\t the flour mixture, followed by the buttermilk
+        \n\t\t\t\t\t\t\t then panko.
+        \n
+        \n
+        \t\t\t\t • Fry the chicken – Preheat about 1-inch of oil
+        \n\t\t\t\t\t\t\t in a deep frying pan to 350˚F and pop the
+        \n\t\t\t\t\t\t\t coated chicken pieces inside. Fry in small
+        \n\t\t\t\t\t\t\t batches until golden brown.
+        \n
+        \n
+        \t\t\t\t • Allow the chicken to rest – Remove popcorn
+        \n\t\t\t\t\t\t\t chicken from oil with a slotted spoon and let
+        \n\t\t\t\t\t\t\t it rest on a plate lined with a paper towel to
+        \n\t\t\t\t\t\t\t soak up the excess grease or a wire rack with
+        \n\t\t\t\t\t\t\t paper towels underneath.
+
+        \n
+        \n
+        \n
+        \n
+        <b><big>\t\t Source:</big></b>
+        \n
+        \n
+        \t\t\t\t • <u>natashaskitchen.com</u>
+        \n
+        \n
+        \t\t\t\t • <u>https://natashaskitchen.com/</u>
+        \n\t\t\t\t\t\t\t<u>popcorn-chicken-recipe/</u>
+        \n
+        \n
+        \n
+
+
+    </string>
+
+
+
+    <string name="like_spaghetti">Like Spaghetti Meat Sauce</string>
+    <string name="name_spaghetti">Spaghetti Meat Sauce</string>
+
+    <string name="desc_spaghetti">
+        \n
+        \n
+        <b><big>\t\t Ingredients</big></b>
+        \n
+        \n
+        \t\t\t\t •  1 lb ground beef, 15% fat
+        \n
+        \n
+        \t\t\t\t •  1 medium onion, finely diced
+        \n
+        \n
+        \t\t\t\t •  1 tsp salt
+        \n
+        \n
+        \t\t\t\t •  1/2 tsp ground cumin
+        \n
+        \n
+        \t\t\t\t •  1/4 tsp black pepper
+        \n
+        \n
+        \t\t\t\t •   2 garlic cloves, minced
+        \n
+        \n
+        \t\t\t\t •   1/4 cup water
+        \n
+        \n
+        \t\t\t\t •   1 tsp granulated sugar
+        \n
+        \n
+        \t\t\t\t •   12 oz spaghetti, to serve
+        \n
+        \n
+
+
+        \n
+        \n
+        <b><big>\t\t Instructions</big></b>
+
+        \n
+        \n
+        \t\t\t\t • Place a pot or dutch oven over medium
+        \n\t\t\t\t\t\t\t heat, add 1 lb ground beef and
+        \n\t\t\t\t\t\t\t sautee, breaking it up with a
+        \n\t\t\t\t\t\t\t spatula until no longer pink
+        \n\t\t\t\t\t\t\t (5 minutes).
+        \n
+        \n
+        \t\t\t\t • Add chopped onion, 1 tsp salt, 1/2 tsp
+        \n\t\t\t\t\t\t\t cumin, 1/4 tsp pepper, cook until soft then
+        \n\t\t\t\t\t\t\t add garlic and sautee until fragrant.
+        \n
+        \n
+        \t\t\t\t • Add marinara sauce, 1/4 cup water
+        \n\t\t\t\t\t\t\t and 1 tsp sugar. Partially cover and simmer
+        \n\t\t\t\t\t\t\t  meat sauce 20 minutes. Done!
+
+
+        \n
+        \n
+        \n
+        \n
+        <b><big>\t\t Source:</big></b>
+        \n
+        \n
+        \t\t\t\t • <u>natashaskitchen.com</u>
+        \n
+        \n
+        \t\t\t\t • <u>https://natashaskitchen.com/</u>
+        \n\t\t\t\t\t\t\t<u>spaghetti-meat-sauce-recipe/</u>
+        \n
+        \n
+        \n
+
+
+    </string>
+
+
+    <string name="empty_saved_recipes"><b><big>\nNo recipes saved!\n\nPress the \"like\" button to save recipes to your profile</big></b></string>
+
+    <string name="introduction"><big>Let\'s Cook!</big></string>
+
+
+    <string name="about_headline"><big>About Us</big></string>
+
+
+    <string name="about_body">Welcome to RecipEats, your number one source for all things recipes.
+
+
+        \n\nFounded on April 27th, 2022 by Saeed Abdullah, RecipEats has come a long way from its beginnings of HCDD340 at Penn State University. When RecipEats first started out, his passion for eating food drove him to invest in a humble student\'s group project. We now serve customers all over the great plains of the tri-state area, and are thrilled to be a part of the movement.
+
+        \n\nWe hope you are as much excited about the future of this application as much as we are.
+
+        \n\nSincerely,
+        \nSaeed Abdullah, \nCEO, Jumbo Games Inc.
+    </string>
+
+
+
+</resources>

@@ -1,0 +1,368 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:id="@+id/coordinatorLayout">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="419dp"
+        android:layout_height="62dp"
+        android:background="@color/dark_gray"
+        app:layout_anchorGravity="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:popupTheme="@style/Theme.RecipEats.PopupOverlay"
+        tools:ignore="MissingConstraints"
+        tools:layout_conversion_absoluteHeight="56dp"
+        tools:layout_conversion_absoluteWidth="411dp"
+        tools:layout_editor_absoluteY="-1dp" />
+
+
+
+    <ScrollView
+        android:id="@+id/scrollView3"
+        android:layout_width="402dp"
+        android:layout_height="556dp"
+        android:layout_marginBottom="148dp"
+        android:fillViewport="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.444"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar"
+        app:layout_constraintVertical_bias="0.0">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/image_fruit_salad"
+                android:layout_width="300dp"
+                android:layout_height="300dp"
+                android:layout_marginTop="52dp"
+                android:elevation="2dp"
+                android:contentDescription="@string/name_fruit_salad"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.497"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:shapeAppearanceOverlay="@style/circleShape"
+                app:srcCompat="@drawable/fruit_salad" />
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/background_fruit_salad"
+                android:layout_width="333dp"
+                android:layout_height="333dp"
+                android:layout_marginEnd="18dp"
+                android:layout_marginBottom="300dp"
+                android:contentDescription="@string/name_fruit_salad"
+                app:layout_constraintBottom_toBottomOf="@+id/image_fruit_salad"
+                app:layout_constraintEnd_toEndOf="@+id/image_fruit_salad"
+                app:layout_constraintStart_toStartOf="@+id/image_fruit_salad"
+                app:layout_constraintTop_toTopOf="@+id/image_fruit_salad"
+                app:layout_constraintVertical_bias="0.038"
+                app:shapeAppearanceOverlay="@style/circleShape"
+                app:srcCompat="@color/light_gray" />
+
+            <TextView
+                android:id="@+id/name_fruit_salad"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/abel"
+                android:text="@string/name_fruit_salad"
+                android:textSize="20sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/image_fruit_salad" />
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/like_fruit_salad"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_marginTop="4dp"
+                android:layout_marginEnd="4dp"
+                android:background="@color/light_gray"
+                android:contentDescription="@string/like_fruit_salad"
+                android:elevation="3dp"
+                app:contentPadding="5dp"
+                app:layout_constraintEnd_toEndOf="@+id/image_fruit_salad"
+                app:layout_constraintTop_toTopOf="@+id/image_fruit_salad"
+                app:shapeAppearanceOverlay="@style/circleShape"
+                app:srcCompat="@drawable/ic_baseline_thumb_up_alt_24"
+                tools:layout_conversion_absoluteHeight="200dp"
+                tools:layout_conversion_absoluteWidth="200dp" />
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/image_popcorn_chicken"
+                android:layout_width="300dp"
+                android:layout_height="300dp"
+                android:layout_marginTop="30dp"
+                android:elevation="2dp"
+                android:contentDescription="@string/name_popcorn_chicken"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/name_fruit_salad"
+                app:shapeAppearanceOverlay="@style/circleShape"
+                app:srcCompat="@drawable/popcorn_chicken" />
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/like_popcorn_chicken"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_marginTop="4dp"
+                android:layout_marginEnd="4dp"
+                android:background="@color/light_gray"
+                android:contentDescription="@string/like_popcorn_chicken"
+                android:elevation="3dp"
+                app:contentPadding="5dp"
+                app:layout_constraintEnd_toEndOf="@+id/image_popcorn_chicken"
+                app:layout_constraintTop_toTopOf="@+id/image_popcorn_chicken"
+                app:shapeAppearanceOverlay="@style/circleShape"
+                app:srcCompat="@drawable/ic_baseline_thumb_up_alt_24"
+                tools:layout_conversion_absoluteHeight="200dp"
+                tools:layout_conversion_absoluteWidth="200dp" />
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/background_popcorn_chicken"
+                android:layout_width="333dp"
+                android:layout_height="333dp"
+                android:layout_marginEnd="18dp"
+                android:contentDescription="@string/name_popcorn_chicken"
+                app:layout_constraintBottom_toBottomOf="@+id/image_popcorn_chicken"
+                app:layout_constraintEnd_toEndOf="@+id/image_popcorn_chicken"
+                app:layout_constraintHorizontal_bias="0.415"
+                app:layout_constraintStart_toStartOf="@+id/image_popcorn_chicken"
+                app:layout_constraintTop_toTopOf="@+id/image_popcorn_chicken"
+                app:layout_constraintVertical_bias="0.108"
+                app:shapeAppearanceOverlay="@style/circleShape"
+                app:srcCompat="@color/light_gray" />
+
+            <TextView
+                android:id="@+id/name_popcorn_chicken"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/abel"
+                android:text="@string/name_popcorn_chicken"
+                android:textSize="20sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/image_popcorn_chicken" />
+
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/image_spaghetti"
+                android:layout_width="300dp"
+                android:layout_height="300dp"
+                android:layout_marginTop="30dp"
+                android:elevation="2dp"
+                android:contentDescription="@string/name_spaghetti"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/name_popcorn_chicken"
+                app:shapeAppearanceOverlay="@style/circleShape"
+                app:srcCompat="@drawable/spaghetti_and_meat_sauce" />
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/like_spaghetti"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_marginTop="4dp"
+                android:layout_marginEnd="4dp"
+                android:background="@color/light_gray"
+                android:contentDescription="@string/like_spaghetti"
+                android:elevation="3dp"
+                app:contentPadding="5dp"
+                app:layout_constraintEnd_toEndOf="@+id/image_spaghetti"
+                app:layout_constraintTop_toTopOf="@+id/image_spaghetti"
+                app:shapeAppearanceOverlay="@style/circleShape"
+                app:srcCompat="@drawable/ic_baseline_thumb_up_alt_24"
+                tools:layout_conversion_absoluteHeight="200dp"
+                tools:layout_conversion_absoluteWidth="200dp" />
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/background_spaghetti"
+                android:layout_width="333dp"
+                android:layout_height="333dp"
+                android:layout_marginEnd="18dp"
+                android:contentDescription="@string/name_spaghetti"
+                app:layout_constraintBottom_toBottomOf="@+id/image_spaghetti"
+                app:layout_constraintEnd_toEndOf="@+id/image_spaghetti"
+                app:layout_constraintHorizontal_bias="0.415"
+                app:layout_constraintStart_toStartOf="@+id/image_spaghetti"
+                app:layout_constraintTop_toTopOf="@+id/image_spaghetti"
+                app:layout_constraintVertical_bias="0.108"
+                app:shapeAppearanceOverlay="@style/circleShape"
+                app:srcCompat="@color/light_gray" />
+
+            <TextView
+                android:id="@+id/name_spaghetti"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/abel"
+                android:text="@string/name_spaghetti"
+                android:textSize="20sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/image_spaghetti" />
+
+            <TextView
+                android:id="@+id/name_test"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="90dp"
+                android:text="@string/app_name"
+                android:textSize="20sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/name_spaghetti" />
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/taskbar_background_shadow"
+        android:layout_width="364dp"
+        android:layout_height="108dp"
+        android:elevation="3dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="parent"
+        app:shapeAppearanceOverlay="@style/roundedShape"
+        app:srcCompat="@color/primaryColor"
+        tools:ignore="ImageContrastCheck" />
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/taskbar_background"
+        android:layout_width="414dp"
+        android:layout_height="102dp"
+        android:elevation="3dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        app:shapeAppearanceOverlay="@style/roundedShape"
+        app:srcCompat="@color/light_gray" />
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/imageSearch"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="1dp"
+        android:background="@color/dark_gray"
+        android:contentDescription="@string/search_description"
+        android:elevation="3dp"
+        app:contentPadding="7dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.165"
+        app:layout_constraintHorizontal_chainStyle="spread_inside"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/taskbar_background"
+        app:layout_constraintVertical_bias="0.212"
+        app:shapeAppearanceOverlay="@style/circleShape"
+        app:srcCompat="@drawable/ic_baseline_menu_book_24"
+        tools:layout_conversion_absoluteHeight="200dp"
+        tools:layout_conversion_absoluteWidth="200dp" />
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/imageSettings"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="1dp"
+        android:background="@color/light_gray"
+        android:contentDescription="@string/settings_description"
+        android:elevation="3dp"
+        app:contentPadding="5dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.824"
+        app:layout_constraintHorizontal_chainStyle="spread_inside"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/taskbar_background"
+        app:layout_constraintVertical_bias="0.2"
+        app:shapeAppearanceOverlay="@style/circleShape"
+        app:srcCompat="@drawable/ic_baseline_settings_24"
+        tools:layout_conversion_absoluteHeight="200dp"
+        tools:layout_conversion_absoluteWidth="200dp" />
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/imageLike"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="1dp"
+        android:background="@color/light_gray"
+        android:contentDescription="@string/saved_taskbar_label"
+        android:elevation="3dp"
+        app:contentPadding="5dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintHorizontal_chainStyle="spread_inside"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/taskbar_background"
+        app:layout_constraintVertical_bias="0.2"
+        app:shapeAppearanceOverlay="@style/circleShape"
+        app:srcCompat="@drawable/ic_baseline_thumb_up_alt_24"
+        tools:layout_conversion_absoluteHeight="200dp"
+        tools:layout_conversion_absoluteWidth="200dp" />
+
+    <TextView
+        android:id="@+id/recipe_taskbar_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:elevation="3dp"
+        android:text="@string/recipe_taskbar_label"
+        android:textColor="#616161"
+        android:contentDescription="@string/recipe_taskbar_label"
+        app:layout_constraintEnd_toEndOf="@+id/imageSearch"
+        app:layout_constraintStart_toStartOf="@+id/imageSearch"
+        app:layout_constraintTop_toBottomOf="@+id/imageSearch" />
+
+    <TextView
+        android:id="@+id/saved_taskbar_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:elevation="3dp"
+        android:text="@string/saved_taskbar_label"
+        android:textColor="#616161"
+        android:contentDescription="@string/saved_taskbar_label"
+        app:layout_constraintEnd_toEndOf="@+id/imageLike"
+        app:layout_constraintStart_toStartOf="@+id/imageLike"
+        app:layout_constraintTop_toBottomOf="@+id/imageLike" />
+
+    <TextView
+        android:id="@+id/settings_taskbar_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:elevation="3dp"
+        android:text="@string/settings_taskbar_label"
+        android:textColor="#616161"
+        android:contentDescription="@string/settings_taskbar_label"
+        app:layout_constraintEnd_toEndOf="@+id/imageSettings"
+        app:layout_constraintStart_toStartOf="@+id/imageSettings"
+        app:layout_constraintTop_toBottomOf="@+id/imageSettings" />
+
+    <TextView
+        android:id="@+id/textIntroduction"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/abel"
+        android:text="@string/introduction"
+        android:textSize="30sp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+        android:contentDescription="@string/introduction"
+        app:layout_constraintBottom_toBottomOf="@+id/toolbar"
+        app:layout_constraintEnd_toEndOf="@+id/toolbar"
+        app:layout_constraintStart_toStartOf="@+id/toolbar"
+        app:layout_constraintTop_toTopOf="@+id/toolbar" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
